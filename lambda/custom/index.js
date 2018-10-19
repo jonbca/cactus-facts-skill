@@ -142,17 +142,18 @@ const enData = {
     STOP_MESSAGE: 'Goodbye!',
     FACTS:
       [
-        'A year on Mercury is just 88 days long.',
-        'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-        'On Mars, the Sun appears about half the size as it does on Earth.',
-        'Jupiter has the shortest day of all the planets.',
-        'The Sun is an almost perfect sphere.',
+        'Cacti can be found as far north as Canada.',
+        'In Mexico, cactus is a popular food called nopales, which tastes like green beans.',
+        'Cactus spines are modified leaves.',
+        'Spines stop animals from eating the cactus, and also keep the cactus from losing water to the air.',
+        'There are nearly 2000 species of cactus.',
+        'Some kinds of cactus can live for up to 300 years.',
+        'There\'s only one kind of cactus that\'s native to the old world.',
+        'All cacti are succulents, but not all succulents are cacti.',
+        'The tallest cacti are up to 20 metres tall.',
+        'Did you know that not all cacti have spines?',
+        'Cacti are more than just angry cucumbers.',
+        'When the saguaro cactus drinks, its outer ribs can expand like an accordion to hold the water.'
       ],
   },
-};
-
-// constructs i18n and l10n data structure
-// translations for this sample can be found at the end of this file
-const languageStrings = {
-  'en': enData
 };
