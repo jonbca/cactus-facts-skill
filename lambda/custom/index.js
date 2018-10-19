@@ -2,6 +2,7 @@
 /* eslint no-use-before-define: 0 */
 // sets up dependencies
 const Alexa = require('ask-sdk-core');
+const sample = require('lodash.sample');
 
 // core functionality for fact skill
 const GetNewFactHandler = {
@@ -106,6 +107,9 @@ const LocalizationInterceptor = {
   process(handlerInput) {
     const attributes = handlerInput.attributesManager.getRequestAttributes();
     attributes.t = function translate(key) {
+      if (key === 'FACTS') {
+        return sample(enData.translation[key]);
+      }
       return enData.translation[key];
     };
   },
