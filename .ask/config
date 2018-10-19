@@ -1,68 +1,17 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.88528983-16e6-4d7a-9494-2a5929e151f1",
+      "skill_id": "",
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "cactus-facts-default"
+                "uri": "ask-cactus-fact-default"
               }
             }
           }
         }
-      },
-      "resources": {
-        "manifest": {
-          "eTag": "302135c0707f21efe73133dac557517c"
-        },
-        "interactionModel": {
-          "de-DE": {
-            "eTag": "9f0cef85fd8528a7c99f06d71a2b5f17"
-          },
-          "en-CA": {
-            "eTag": "6e529524cc8405c9982fe5930d429a74"
-          },
-          "en-IN": {
-            "eTag": "6e529524cc8405c9982fe5930d429a74"
-          },
-          "en-AU": {
-            "eTag": "6e529524cc8405c9982fe5930d429a74"
-          },
-          "en-US": {
-            "eTag": "7f0e2fe92e7573801dd018a2d0488189"
-          },
-          "en-GB": {
-            "eTag": "6e529524cc8405c9982fe5930d429a74"
-          },
-          "fr-FR": {
-            "eTag": "0a7ecaab3483b6057272716c368ae3fb"
-          },
-          "ja-JP": {
-            "eTag": "2c544a5ee5b94d80b32f1a65b8cfc03e"
-          },
-          "es-ES": {
-            "eTag": "a4fa43bd1b35dab6d57168859027af48"
-          },
-          "es-MX": {
-            "eTag": "a4fa43bd1b35dab6d57168859027af48"
-          },
-          "it-IT": {
-            "eTag": "3c7a5b705d40e26e063ed4bb9d0f6a2e"
-          }
-        },
-        "lambda": [
-          {
-            "arn": "arn:aws:lambda:us-east-1:386454917180:function:cactus-facts-default",
-            "functionName": "cactus-facts-default",
-            "awsRegion": "us-east-1",
-            "alexaUsage": [
-              "custom/default"
-            ],
-            "revisionId": "27349390-1657-43fb-9426-dbc16591275c"
-          }
-        ]
       }
     }
   }
