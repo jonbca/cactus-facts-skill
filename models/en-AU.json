@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cactus facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a cactus fact",
+            "a cacti fact",
+            "tell me a fact",
+            "tell me a cactus fact",
+            "tell me a cacti fact",
+            "tell me a fact about cacti",
+            "give me a fact",
+            "give me a cactus fact",
+            "give me a cacti fact",
+            "give me a fact about cacti",
+            "tell me trivia",
+            "tell me a cactus trivia",
+            "tell me a cacti trivia",
+            "tell me a trivia about cacti",
+            "give me trivia",
+            "give me a cactus trivia",
+            "give me a cacti trivia",
+            "give me a trivia about cacti",
+            "give me some information",
+            "give me some cactus information",
+            "give me some cacti information",
+            "give me some information about cacti",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}
