@@ -10,6 +10,7 @@ phases:
     - cd lambda/custom; npm install
   build:
     commands:
+    - cd $CODEBUILD_SRC_DIR
     - bst test
     - cd lambda/custom; npm test
 
